@@ -11,6 +11,7 @@ list_of_files = [
     f"src/{project_name}/components/__init__.py", # Init file for components
     f"src/{project_name}/utils/__init__.py", # Init file for utilities
     f"src/{project_name}/utils/common.py", # Init file for utilities
+    f"src/{project_name}/logging/__init__.py", # Init file for logging
     f"src/{project_name}/config/__init__.py", # Init file for configuration
     f"src/{project_name}/config/configuration.py", # Configuration settings
     f"src/{project_name}/pipeline/__init__.py", # Init file for pipeline
