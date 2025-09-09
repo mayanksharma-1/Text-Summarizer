@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: text_summarizer
+Version: 0.0.1
+Summary: A small python package for text summarization
+Home-page: https://github.com/mayanksharma-1/Text-Summarizer
+Author: mayanksharma-1
+Author-email: as.mayanksharma@gmail.com
+Project-URL: Bug Tracker, https://github.com/mayanksharma-1/Text-Summarizer/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
