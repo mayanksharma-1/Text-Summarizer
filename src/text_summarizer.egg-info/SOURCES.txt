@@ -10,6 +10,7 @@ src/text_summarizer/config/__init__.py
 src/text_summarizer/config/configuration.py
 src/text_summarizer/constants/__init__.py
 src/text_summarizer/entity/__init__.py
+src/text_summarizer/logging/__init__.py
 src/text_summarizer/pipeline/__init__.py
 src/text_summarizer/utils/__init__.py
 src/text_summarizer/utils/common.py

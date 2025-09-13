@@ -9,7 +9,20 @@ Project-URL: Bug Tracker, https://github.com/mayanksharma-1/Text-Summarizer/issu
 Description-Content-Type: text/markdown
 Dynamic: author
 Dynamic: author-email
+Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: project-url
 Dynamic: summary
+
+# Text Summarizer End to End project
+
+## Workflow 
+1. Update config.yaml
+1. Update params.yaml
+1. Update entity
+1. Update the configuration manager in src config
+1. Update the conponents
+1. Update the pipeline
+1. Update the main.py
+1. Update the app.py
