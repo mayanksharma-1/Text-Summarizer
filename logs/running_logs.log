@@ -30,3 +30,16 @@ Expires: Sat, 13 Sep 2025 21:13:45 GMT
 Source-Age: 0
 
 
+[2025-09-14 17:56:12,161: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-09-14 17:56:12,163: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-14 17:56:12,164: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-14 17:56:12,164: INFO: common]: created directory at: artifacts
+[2025-09-14 17:56:12,164: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-09-14 17:56:12,164: INFO: data_ingestion]: File already exists of size: ~ 4148 KB
+[2025-09-14 17:56:12,224: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-09-15 09:57:43,401: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-15 09:57:43,407: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-15 09:57:43,408: INFO: common]: created directory at: artifacts
+[2025-09-15 09:57:43,413: INFO: common]: created directory at: artifacts/data_validation
