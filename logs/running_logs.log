@@ -141,3 +141,35 @@ x==========x
 [2025-09-15 22:20:31,686: INFO: main]: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x
+[2025-09-16 15:27:43,774: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 15:27:43,777: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 15:27:43,778: INFO: common]: created directory at: artifacts
+[2025-09-16 15:27:43,779: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 15:57:11,132: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 15:57:11,135: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 15:57:11,135: INFO: common]: created directory at: artifacts
+[2025-09-16 15:57:11,136: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 15:58:06,070: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 15:58:06,072: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 15:58:06,073: INFO: common]: created directory at: artifacts
+[2025-09-16 15:58:06,074: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 15:58:44,164: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 15:58:44,165: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 15:58:44,166: INFO: common]: created directory at: artifacts
+[2025-09-16 15:58:44,167: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 15:59:57,031: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 15:59:57,033: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 15:59:57,034: INFO: common]: created directory at: artifacts
+[2025-09-16 15:59:57,034: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 18:20:01,806: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 18:20:01,808: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 18:20:01,808: INFO: common]: created directory at: artifacts
+[2025-09-16 18:20:01,809: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 18:25:37,476: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 18:25:37,480: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 18:25:37,480: INFO: common]: created directory at: artifacts
+[2025-09-16 18:25:37,481: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 18:30:33,680: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 18:30:33,682: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 18:30:33,683: INFO: common]: created directory at: artifacts
+[2025-09-16 18:30:33,684: INFO: common]: created directory at: artifacts/model_trainer
