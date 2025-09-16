@@ -6,11 +6,17 @@ src/text_summarizer.egg-info/SOURCES.txt
 src/text_summarizer.egg-info/dependency_links.txt
 src/text_summarizer.egg-info/top_level.txt
 src/text_summarizer/components/__init__.py
+src/text_summarizer/components/data_ingestion.py
+src/text_summarizer/components/data_transformation.py
+src/text_summarizer/components/data_validation.py
 src/text_summarizer/config/__init__.py
 src/text_summarizer/config/configuration.py
 src/text_summarizer/constants/__init__.py
 src/text_summarizer/entity/__init__.py
 src/text_summarizer/logging/__init__.py
 src/text_summarizer/pipeline/__init__.py
+src/text_summarizer/pipeline/data_ingestion.py
+src/text_summarizer/pipeline/data_transformation.py
+src/text_summarizer/pipeline/data_validation.py
 src/text_summarizer/utils/__init__.py
 src/text_summarizer/utils/common.py

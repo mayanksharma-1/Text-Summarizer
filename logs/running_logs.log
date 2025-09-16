@@ -173,3 +173,11 @@ x==========x
 [2025-09-16 18:30:33,682: INFO: common]: yaml file: params.yaml loaded successfully
 [2025-09-16 18:30:33,683: INFO: common]: created directory at: artifacts
 [2025-09-16 18:30:33,684: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 18:48:40,900: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 18:48:40,902: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 18:48:40,902: INFO: common]: created directory at: artifacts
+[2025-09-16 18:48:40,903: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-16 18:53:01,195: INFO: common]: yaml file: config/config.yaml loaded successfully
+[2025-09-16 18:53:01,197: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-16 18:53:01,198: INFO: common]: created directory at: artifacts
+[2025-09-16 18:53:01,199: INFO: common]: created directory at: artifacts/model_trainer

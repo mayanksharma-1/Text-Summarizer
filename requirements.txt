@@ -10,6 +10,7 @@ tqdm
 pyYAML
 matplotlib
 torch
+accelerate>=0.26.0
 notebook
 
 boto3
