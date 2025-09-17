@@ -12,6 +12,7 @@ matplotlib
 torch
 accelerate>=0.26.0
 notebook
+hf_xet
 
 boto3
 mypy-boto3-s3

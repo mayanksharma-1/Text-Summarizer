@@ -181,3 +181,42 @@ x==========x
 [2025-09-16 18:53:01,197: INFO: common]: yaml file: params.yaml loaded successfully
 [2025-09-16 18:53:01,198: INFO: common]: created directory at: artifacts
 [2025-09-16 18:53:01,199: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-17 00:45:23,828: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 00:45:23,830: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 00:45:23,831: INFO: common]: created directory at: artifacts
+[2025-09-17 00:45:23,831: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-17 00:45:29,650: WARNING: file_download]: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-09-17 00:48:47,817: WARNING: file_download]: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-09-17 00:49:26,163: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2025-09-17 00:49:26,166: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 00:49:26,167: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 00:49:26,167: INFO: common]: created directory at: artifacts
+[2025-09-17 00:49:26,167: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-09-17 00:49:26,168: INFO: data_ingestion]: File already exists of size: ~ 4148 KB
+[2025-09-17 00:49:26,227: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2025-09-17 00:49:26,227: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-09-17 00:49:26,229: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 00:49:26,230: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 00:49:26,230: INFO: common]: created directory at: artifacts
+[2025-09-17 00:49:26,230: INFO: common]: created directory at: artifacts/data_validation
+[2025-09-17 00:49:26,231: INFO: main]: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x
+[2025-09-17 00:49:26,232: INFO: main]: >>>>>> stage Data Transformation stage started <<<<<<
+[2025-09-17 00:49:26,233: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 00:49:26,233: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 00:49:26,234: INFO: common]: created directory at: artifacts
+[2025-09-17 00:49:26,234: INFO: common]: created directory at: artifacts/data_transformation
+[2025-09-17 00:49:30,014: INFO: main]: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x
+[2025-09-17 00:56:15,526: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 00:56:15,528: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 00:56:15,529: INFO: common]: created directory at: artifacts
+[2025-09-17 00:56:15,529: INFO: common]: created directory at: artifacts/model_trainer
+[2025-09-17 03:44:50,077: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 03:44:50,083: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 03:44:50,084: INFO: common]: created directory at: artifacts
+[2025-09-17 03:44:50,084: INFO: common]: created directory at: artifacts/model_trainer
