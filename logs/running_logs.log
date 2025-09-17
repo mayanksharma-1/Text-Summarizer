@@ -285,3 +285,17 @@ x==========x
 [2025-09-17 20:17:45,089: INFO: main]: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x
+[2025-09-17 22:56:08,194: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 22:56:08,202: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 22:56:08,203: INFO: common]: created directory at: artifacts
+[2025-09-17 22:56:08,203: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-17 22:58:27,159: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 22:58:27,160: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 22:58:27,161: INFO: common]: created directory at: artifacts
+[2025-09-17 22:58:27,161: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-17 23:02:21,722: INFO: rouge_scorer]: Using default tokenizer.
+[2025-09-17 23:22:42,829: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-17 23:22:42,831: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-17 23:22:42,832: INFO: common]: created directory at: artifacts
+[2025-09-17 23:22:42,834: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-17 23:26:25,100: INFO: rouge_scorer]: Using default tokenizer.
