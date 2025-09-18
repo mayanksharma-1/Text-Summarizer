@@ -299,3 +299,11 @@ x==========x
 [2025-09-17 23:22:42,832: INFO: common]: created directory at: artifacts
 [2025-09-17 23:22:42,834: INFO: common]: created directory at: artifacts/model_evaluation
 [2025-09-17 23:26:25,100: INFO: rouge_scorer]: Using default tokenizer.
+[2025-09-18 20:05:36,270: INFO: server]: Started server process [15596]
+[2025-09-18 20:05:36,270: INFO: on]: Waiting for application startup.
+[2025-09-18 20:05:36,271: INFO: on]: Application startup complete.
+[2025-09-18 20:05:36,272: INFO: server]: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2025-09-18 20:35:37,180: INFO: server]: Shutting down
+[2025-09-18 20:35:37,287: INFO: on]: Waiting for application shutdown.
+[2025-09-18 20:35:37,287: INFO: on]: Application shutdown complete.
+[2025-09-18 20:35:37,288: INFO: server]: Finished server process [15596]
