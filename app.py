@@ -1,45 +1,46 @@
-from fastapi import FastAPI
 import uvicorn
 import sys
 import os
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
-from starlette.responses import RedirectResponse
-from fastapi.responses import Response
+from pydantic import BaseModel # Import BaseModel for input validation
 from text_summarizer.pipeline.prediction import PredictionPipeline
 
-
-text:str = "What is Text Summarization?"
+# Define a Pydantic model for the request body
+class TextIn(BaseModel):
+    text: str
 
 app = FastAPI()
 
-@app.get("/", tags=["authentication"])
-async def index():
-    return RedirectResponse(url="/docs")
+# Initialize the Jinja2Templates with the templates directory
+templates = Jinja2Templates(directory="templates")
 
+# Initialize the model object once for efficiency
+model_predictor = PredictionPipeline()
 
+@app.get("/", tags=["UI"], response_class=HTMLResponse)
+async def home(request: Request):
+    """Serve the HTML front-end."""
+    return templates.TemplateResponse("index.html", {"request": request})
 
-@app.get("/train")
+@app.get("/train", tags=["training"])
 async def training():
+    """Triggers the model training pipeline."""
     try:
         os.system("python main.py")
-        return Response("Training successful !!")
-
+        return {"message": "Training successful!"}
     except Exception as e:
-        return Response(f"Error Occurred! {e}")
-    
+        return {"message": f"Error Occurred! {e}"}
 
-
-
-@app.post("/predict")
-async def predict_route(text):
+@app.post("/predict_web", tags=["prediction"])
+async def predict_route(text_in: TextIn):
+    """Receives text from the web form and returns a summary."""
     try:
-
-        obj = PredictionPipeline()
-        text = obj.predict(text)
-        return text
+        summary = model_predictor.predict(text_in.text)
+        return {"summary": summary}
     except Exception as e:
-        raise e
-    
+        return {"error": str(e)}
 
-if __name__=="__main__":
+if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8080)

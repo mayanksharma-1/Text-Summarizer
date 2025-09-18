@@ -9,6 +9,7 @@ src/text_summarizer/components/__init__.py
 src/text_summarizer/components/data_ingestion.py
 src/text_summarizer/components/data_transformation.py
 src/text_summarizer/components/data_validation.py
+src/text_summarizer/components/model_evaluation.py
 src/text_summarizer/components/model_trainer.py
 src/text_summarizer/config/__init__.py
 src/text_summarizer/config/configuration.py
@@ -19,6 +20,8 @@ src/text_summarizer/pipeline/__init__.py
 src/text_summarizer/pipeline/data_ingestion.py
 src/text_summarizer/pipeline/data_transformation.py
 src/text_summarizer/pipeline/data_validation.py
+src/text_summarizer/pipeline/model_evaluation.py
 src/text_summarizer/pipeline/model_trainer.py
+src/text_summarizer/pipeline/prediction.py
 src/text_summarizer/utils/__init__.py
 src/text_summarizer/utils/common.py
