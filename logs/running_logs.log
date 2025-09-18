@@ -471,3 +471,11 @@ jinja2.exceptions.TemplateNotFound: index.html
 [2025-09-18 20:52:07,941: INFO: on]: Waiting for application shutdown.
 [2025-09-18 20:52:07,942: INFO: on]: Application shutdown complete.
 [2025-09-18 20:52:07,942: INFO: server]: Finished server process [23808]
+[2025-09-18 20:55:34,614: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-09-18 20:55:34,615: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-09-18 20:55:34,615: INFO: common]: created directory at: artifacts
+[2025-09-18 20:55:34,616: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-09-18 20:55:34,625: INFO: server]: Started server process [23320]
+[2025-09-18 20:55:34,626: INFO: on]: Waiting for application startup.
+[2025-09-18 20:55:34,626: INFO: on]: Application startup complete.
+[2025-09-18 20:55:34,626: INFO: server]: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
